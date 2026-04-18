@@ -1,0 +1,67 @@
+.navbar{
+    background-color: #fff;
+    position: sticky;
+    top:0;
+z-index: 100;
+    
+}
+.navbar-container{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 10px;
+   
+    
+
+}
+.brand{
+    text-decoration: none;
+    color: black;
+}
+.nav {
+
+    display: flex;
+    gap:15px;
+}
+.routes{
+    text-decoration: none;
+    color:black;
+    margin-top: 12px;
+     font-weight: 400;
+}
+     
+
+.login-btn > button{
+    margin-top: 7px;
+     border: none;
+     border-radius: 3px;
+    
+
+}
+.login{
+    padding: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 5px;
+    background-color:gray;
+    color:white;
+    border: none;
+    border-radius: 5px;
+    
+    
+}
+.login:hover{
+    transform:scale(0.8);
+}
+.signin{
+    padding: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color:rgba(2, 120, 254, 0.99);
+    color:white;
+    
+}
+
+
+
+

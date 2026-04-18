@@ -1,0 +1,83 @@
+.Homeintro{
+    margin: 5% auto;
+    text-align: center;
+    
+}
+.Homeintro > p{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: gray;
+     
+
+}
+.Productslist{
+    margin-top: 5%;
+    text-align: left;
+    margin-left: 15%;
+
+}
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+    width: 100%;
+    margin-bottom: 40px;
+}
+.img{
+    width:250px;
+    height: 200px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+}
+.eachproduct{
+    background-color: #fff;
+    margin-top: 10px;
+    border-radius: 10px;
+
+}
+.productdetail{
+    margin-top: 10px;
+    padding: 5px;
+    margin-left: 10px;
+}
+.productdetail > h4 {
+margin-top: 5px;
+color:rgb(1, 158, 249)
+}
+.productbtn{
+    margin-top: 7px;
+    padding: 5px;
+    margin-left: 10px;
+}
+.productbtn > button{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    border: none;
+    border-radius: 3px;
+}
+.product-view > button{
+      padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    border: none;
+    border-radius: 3px;
+}
+.view{
+    background-color: rgb(78, 77, 77);
+    color:white
+}
+.addtocart{
+    background-color: rgba(3, 93, 190, 0.995);
+    color:white;
+}
